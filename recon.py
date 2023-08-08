@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--ip', '-i', help='Enter IP address for recon', type=str)
-args = parser.parse_args("--ip 1.1.1.1".split())
+args = parser.parse_args()
 
 def eYePee(ip):
     headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.10 Chrome/87.0.4280.144 Safari/537.36'}
